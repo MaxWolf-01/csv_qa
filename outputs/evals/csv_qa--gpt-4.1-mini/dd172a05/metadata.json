@@ -1,0 +1,1 @@
+{"env": "csv_qa", "model": "gpt-4.1-mini", "num_examples": 20, "rollouts_per_example": 3, "sampling_args": {"max_tokens": null, "temperature": 0.7}, "date": "2025-09-14", "time": "21:38:19", "avg_reward": 0.95, "avg_reward_exact_numeric_match": 0.95}

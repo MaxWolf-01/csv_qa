@@ -45,13 +45,16 @@ vf-eval csv_qa \
 These were not specifially tuned or anything.
 
 <details> 
+
 <summary>GPT-4.1-mini ablation</summary>
+
 | Setting      | Think | Tool Use | Avg Reward (= Accuracy) | Std Dev | Correct / Total | Saved Dataset                                 |
 | ------------ | ----- | -------- | ----------------------- | ------- | --------------- | --------------------------------------------- |
 | GPT-4.1-mini | ✅     | ✅        | **0.950** (95.0%)       | 0.218   | 57 / 60         | `outputs/evals/csv_qa--gpt-4.1-mini/dd172a05` |
 | GPT-4.1-mini | ❌     | ✅        | **0.217** (21.7%)       | 0.412   | 13 / 60         | `outputs/evals/csv_qa--gpt-4.1-mini/7fc45f47` |
 | GPT-4.1-mini | ✅     | ❌        | **0.983** (98.3%)       | 0.128   | 59 / 60         | `outputs/evals/csv_qa--gpt-4.1-mini/d06eca6c` |
 | GPT-4.1-mini | ❌     | ❌        | **0.167** (16.7%)       | 0.373   | 10 / 60         | `outputs/evals/csv_qa--gpt-4.1-mini/7fb58b6b` |
+
 </details>
 
 

@@ -10,8 +10,8 @@
 - **Split sizes**: N/A (custom-generated; TODO)
 
 ### Task
-- **Type:** Single-turn prompts executed in **ToolEnv** (tools may be empty).
-- **Parsers:** `XMLParser(fields=["answer"], answer_field="answer")`
+- **Type:** Filtering, summing, sorting, top-K selection on a CSV table. Single-turn (or multi-turn with tool use).
+- **Parsers:** `XMLParser(fields=["think", "answer"], answer_field="answer")`
 - **Rubric overview:** `reward_exact_numeric_match` (parses `<answer>...</answer>` and compares to ground-truth). No ToolRubric used.
 
 ### Quickstart
